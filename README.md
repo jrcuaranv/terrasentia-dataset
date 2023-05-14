@@ -11,4 +11,4 @@ weather conditions and growth stages. It contains challenging features like occl
   </a>
 </div>
 
-![Alt Terrasentia Robot](figures/robot.png | width=50)
+![Alt Terrasentia Robot](figures/robot.png | width=500)
