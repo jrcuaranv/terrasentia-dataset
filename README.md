@@ -16,12 +16,13 @@ weather conditions and growth stages. It contains challenging features like occl
 <a href="https://youtu.be/cSIdbHLZzkc?t=119" target="_blank"><img src="figures/robot.png" 
 alt="Sample-data" width="400" height="400" border="10" /></a> -->
 
+<!-- 
 <div align="center">
   <img src="figures/sample_video2.gif" height="250"/>
-</div>
+</div> -->
 
 <div align="center">
-  <a href="https://youtu.be/cSIdbHLZzkc?t=119">
+  <a href="https://youtu.be/cSIdbHLZzkc">
     <img src="figures/sample_video2.gif" height="250" alt="Terrasentia-robot">
   </a>
 </div>
