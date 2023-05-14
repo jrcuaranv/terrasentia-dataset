@@ -41,7 +41,7 @@ Others          14                  3 months       x                   x        
 
 <div align="center">
   <a href="figures/neural_depth.png">
-    <img src="figures/neural_depth.png" width="600" alt="neural-depth">
+    <img src="figures/neural_depth.png" width="400" alt="neural-depth">
   </a>
 </div>
 
