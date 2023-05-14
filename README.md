@@ -20,6 +20,12 @@ alt="Sample-data" width="400" height="400" border="10" /></a> -->
   <img src="figures/sample_video2.gif" height="250"/>
 </div>
 
+<div align="center">
+  <a href="https://youtu.be/cSIdbHLZzkc?t=119">
+    <img src="figures/sample_video2.gif" height="250" alt="Terrasentia-robot">
+  </a>
+</div>
+
 
 ## Data description
 This dataset is organized in different folders, classified by crop type and collection date (See Table I for further description of each folder).
