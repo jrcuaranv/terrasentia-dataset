@@ -13,6 +13,10 @@ weather conditions and growth stages. It contains challenging features like occl
   </a>
 </div>
 
+<a href="https://youtu.be/cSIdbHLZzkc?t=119" target="_blank"><img src="https://youtu.be/cSIdbHLZzkc?t=119/0.jpg" 
+alt="Sample-data" width="400" height="400" border="10" /></a>
+
+
 ## Data description
 This dataset is organized in different folders, classified by crop type and collection date (See Table I for further description of each folder).
 Within each folder, we find Rosbag (*.bag) and SVO (*.svo) files.
