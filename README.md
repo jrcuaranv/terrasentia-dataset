@@ -67,7 +67,7 @@ catkin_ws/src/zed-ros-wrapper/zed_wrapper/params. To get the Intrinsic parameter
 
 ## Building fpn_msgs in your catkin workspace
 In order to read the GPS and motor messages, which are user-defined ROS messages, you will need to build them in your catkin workspace.
-1. Download the package fpn_msgs to your catkin/src folder and unzip the file.
+1. Download the package [fpn_msgs](https://uofi.box.com/shared/static/sxfuvw9njpm2e2mbcfncirdxx70kn165.zip) to your catkin/src folder and unzip the file.
 2. Go to your catkin workspace and build the package
 ```
 >> catkin_make fpn_msgs
