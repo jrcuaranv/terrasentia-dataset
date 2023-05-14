@@ -16,6 +16,10 @@ weather conditions and growth stages. It contains challenging features like occl
 <a href="https://youtu.be/cSIdbHLZzkc?t=119" target="_blank"><img src="figures/robot.png" 
 alt="Sample-data" width="400" height="400" border="10" /></a>
 
+<div align="center">
+  <img src="figures/sample_video.gif"/>
+</div>
+
 
 ## Data description
 This dataset is organized in different folders, classified by crop type and collection date (See Table I for further description of each folder).
