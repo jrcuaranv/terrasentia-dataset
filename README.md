@@ -29,16 +29,16 @@ neural mode of the ZED software development kit.
 
 ### Table I. Main characteristics of data folders
 ```
-Folder          Number of           Time           Occlusions          Presence of           Weather         Growth-stage            Rough      Folder
-                sequences           span                               Weeds                 variability     variability             terrain    size (GB)
-Cornfield1      80                  4 months       ✓                   ✓                     ✓               ✓                       ✓          584
-Cornfield2      17                  3 months       ✓                   ✓                     ✓               ✓                       ✓          171
-Cornfield3      2                   1 week         x                   x                     x               x                       ✓          28
-Cornfield4      4                   1 months       ✓                   x                     x               ✓                       ✓          37
-Sorghum         2                   3 weeks        ✓                   ✓                     x               x                       ✓          9
-Soybean         12                  2 weeks        ✓                   ✓                     ✓               x                       ✓          79
-Sweet Corn      4                   1 weeks        ✓                   ✓                     x               x                       ✓          49
-Others          14                  3 months       x                   x                     ✓               ✓                       ✓          103
+Folder          Number of    Time        Occlusions     Presence of     Weather         Growth-stage       Rough      Folder
+                sequences    span                       Weeds           variability     variability        terrain    size (GB)
+Cornfield1      80           4 months    ✓              ✓               ✓               ✓                  ✓          584
+Cornfield2      17           3 months    ✓              ✓               ✓               ✓                  ✓          171
+Cornfield3      2            1 week      x              x               x               x                  ✓          28
+Cornfield4      4            1 months    ✓              x               x               ✓                  ✓          37
+Sorghum         2            3 weeks     ✓              ✓               x               x                  ✓          9
+Soybean         12           2 weeks     ✓              ✓               ✓               x                  ✓          79
+Sweet Corn      4            1 weeks     ✓              ✓               x               x                  ✓          49
+Others          14           3 months    x              x               ✓               ✓                  ✓          103
 ```
 
 
