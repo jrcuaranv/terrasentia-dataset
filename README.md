@@ -13,8 +13,21 @@ weather conditions and growth stages. It contains challenging features like occl
 
 ![Alt Terrasentia Robot](figures/robot.png | width=500)
 
+## Data description
+This dataset is organized in different folders, classified by crop type and collection date (See Table I for further description of each folder).
+Within each folder, we find Rosbag (*.bag) and SVO (*.svo) files.
+- The Rosbag files comprise standard ROS messages for all the sensor measurements, including the stereo-inertial camera (832x468 px, 30
+fps), IMU, GPS, and wheel encoders. It also includes the estimated ground-truth robot pose (by using an EKF). Finally, it includes additional
+topics computed by the ZED software development kit (SDK) that you may find helpful for comparison purposes. Among these topics, we have
+a VIO topic, a camera pose topic (estimated by a VI-SLAM system), and two path topics (path-odom and path-map), which correspond to the
+history of robot poses computed by the VIO and the VI-SLAM system of the ZED SDK. Table II summarizes the topics contained in each
+Rosbag file.
+- The SVO files comprise right and left images in H265 (HEVC) mode, achieving a compression ratio of 100:1 while keeping high quality. The
+image resolution is 1280x720 px. These files can be played using the ZED ROS Wrapper (see tutorial below), to get the same topics as the camera
+was connected. One of the advantages of this file format is its compactness and the possibility to get high-quality depth information by using the
+neural mode of the ZED software development kit.
 
-## Main characteristics of data folders
+### Table I. Main characteristics of data folders
 ```
 Folder          Number of           Time           Occlusions          Presence of           Weather         Growth-stage            Rough      Folder
                 sequences           span                               Weeds                 variability     variability             terrain    size (GB)
@@ -28,7 +41,10 @@ Sweet Corn      4                   1 weeks        ✓                   ✓    
 Others          14                  3 months       x                   x                     ✓               ✓                       ✓          103
 ```
 
-## ROS topics in Rosbag files
+
+
+
+### Table II. ROS topics in Rosbag files
 <div align="center">
   <a href="figures/rosbag_topics.png">
     <img src="figures/rosbag_topics.png" width="800" alt="Rosbag-topics">
@@ -78,6 +94,7 @@ source devel/setup.bash
 ```
 
 ## Sensor calibration
+### Robot's coordinate frames
 <div align="center">
   <a href="figures/coordinate_frames.png">
     <img src="figures/coordinate_frames.png" width="400" alt="coordinate-frames">
