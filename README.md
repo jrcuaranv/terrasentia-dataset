@@ -6,7 +6,7 @@ were collected twice per week in corn fields, and less often in soybean and sorg
 weather conditions and growth stages. It contains challenging features like occlusions, illumination variations, weeds, dynamic objects, and rough terrain.
 
 <div align="center">
-  <a href="https://slam_dataset">
+  <a href="figures/robot.png">
     <img src="figures/robot.png" width="400" alt="Terrasentia-robot">
   </a>
 </div>
