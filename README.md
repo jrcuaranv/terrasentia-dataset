@@ -5,4 +5,10 @@ University of Illinois at Urbana-Champaign. The collection campaign took place d
 were collected twice per week in corn fields, and less often in soybean and sorghum. This dataset exhibit high variability in terms of
 weather conditions and growth stages. It contains challenging features like occlusions, illumination variations, weeds, dynamic objects, and rough terrain.
 
+<div align="center">
+  <a href="https://slam_dataset">
+    <img src="figures/robot.png" width="200" alt="Terrasentia-robot">
+  </a>
+</div>
+
 ![Alt Terrasentia Robot](figures/robot.png | width=50)
