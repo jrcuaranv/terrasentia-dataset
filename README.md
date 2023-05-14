@@ -84,4 +84,4 @@ source devel/setup.bash
   </a>
 </div>
 
-Check [sensor_parameters.txt](.sensor_parameters.txt)
+Check [sensor_parameters.txt](sensor_parameters.txt)
