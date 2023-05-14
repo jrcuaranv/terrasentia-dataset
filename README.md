@@ -7,7 +7,7 @@ weather conditions and growth stages. It contains challenging features like occl
 
 <div align="center">
   <a href="https://slam_dataset">
-    <img src="figures/robot.png" width="200" alt="Terrasentia-robot">
+    <img src="figures/robot.png" width="400" alt="Terrasentia-robot">
   </a>
 </div>
 
