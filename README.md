@@ -29,4 +29,13 @@ Sweet Corn      4                   1 weeks        ✓                   ✓    
 Others          14                  3 months       x                   x                     ✓               ✓                       ✓          103
 ```
 
+<div align="center">
+  <a href="figures/rosbag_topics.png">
+    <img src="figures/rosbag_topics.png" width="800" alt="Rosbag-topics">
+  </a>
+</div>
+
+
+
 ZED SDK ([reference](https://www.stereolabs.com/docs/installation/))
+
