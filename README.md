@@ -37,6 +37,12 @@ Others          14                  3 months       x                   x        
 
 
 ## Playing SVO files (optional)
+### Left image and neural depth computed by the ZED SDK
+<div align="center">
+  <a href="figures/neural_depth.png">
+    <img src="neural_depth.png" width="800" alt="neural_depth">
+  </a>
+</div>
 If you want higher resolution images and higher depth quality than that of the rosbag files, then you can use the svo files. Most of them
 were recorded simultaneously with the rosbags.
 1. Install the [ZED SDK](https://www.stereolabs.com/developers/release/) (You need CUDA)
@@ -53,11 +59,7 @@ rostopic list
 ```
 You can change the quality of the depth image and other parameters by editing the file common.yaml in the directory:
 catkin_ws/src/zed-ros-wrapper/zed_wrapper/params. To get the Intrinsic parameters of the camera, check topics:
--/zed2/zed_node/depth/camera_info
--/zed2/zed_node/left/camera_info
--/zed2/zed_node/right/camera_info
-
-
-
-ZED SDK ([reference](https://www.stereolabs.com/docs/installation/))
+- /zed2/zed_node/depth/camera_info
+- /zed2/zed_node/left/camera_info
+- /zed2/zed_node/right/camera_info
 
