@@ -14,9 +14,8 @@ weather conditions and growth stages. It contains challenging features like occl
 ![Alt Terrasentia Robot](figures/robot.png | width=500)
 
 
-
+## Main characteristics of data folders
 ```
-Description
 Folder          Number of           Time           Occlusions          Presence of           Weather         Growth-stage            Rough      Folder
                 sequences           span                               Weeds                 variability     variability             terrain    size (GB)
 Cornfield1      80                  4 months       ✓                   ✓                     ✓               ✓                       ✓          584
@@ -29,6 +28,7 @@ Sweet Corn      4                   1 weeks        ✓                   ✓    
 Others          14                  3 months       x                   x                     ✓               ✓                       ✓          103
 ```
 
+## ROS topics in Rosbag files
 <div align="center">
   <a href="figures/rosbag_topics.png">
     <img src="figures/rosbag_topics.png" width="800" alt="Rosbag-topics">
