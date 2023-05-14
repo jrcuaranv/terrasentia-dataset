@@ -1,5 +1,6 @@
 # SLAM-dataset
 [Download](https://uofi.box.com/s/l7e0okjxkq1vzz77goac2bu1my81ad9d)
+
 This dataset is intended for the evaluation of visual-based localization and mapping systems in agriculture. It includes stereo
 images, IMU, GPS, and wheel encoder measurements. It was collected from a ground robot in the Illinois Autonomous Farm at the
 University of Illinois at Urbana-Champaign. The collection campaign took place during the Summer of 2022. Different data sequences
@@ -11,8 +12,6 @@ weather conditions and growth stages. It contains challenging features like occl
     <img src="figures/robot.png" width="400" alt="Terrasentia-robot">
   </a>
 </div>
-
-![Alt Terrasentia Robot](figures/robot.png | width=500)
 
 ## Data description
 This dataset is organized in different folders, classified by crop type and collection date (See Table I for further description of each folder).
