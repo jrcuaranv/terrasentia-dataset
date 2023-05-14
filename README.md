@@ -17,7 +17,7 @@ weather conditions and growth stages. It contains challenging features like occl
 alt="Sample-data" width="400" height="400" border="10" /></a> -->
 
 <div align="center">
-  <img src="figures/sample_video2.gif" height="300"/>
+  <img src="figures/sample_video.gif" height="300"/>
 </div>
 
 
