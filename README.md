@@ -32,3 +32,4 @@ visualizer_backend_queue Size [#]       	   73	18.3208	{1.00000 +- 0.00000}	[1,1
 visualizer_frontend_queue Size [#]      	  295	73.9984	{4.21695 +- 1.24381}	[1,7]
 ```
 
+ZED SDK ([reference](https://www.stereolabs.com/docs/installation/))
