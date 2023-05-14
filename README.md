@@ -12,6 +12,8 @@ weather conditions and growth stages. It contains challenging features like occl
 </div>
 
 ![Alt Terrasentia Robot](figures/robot.png | width=500)
+![A cat sitting on a chair](figures/robot.png "<h3 align='center'>Cat on a chair</h3>")
+
 
 ```
 I0512 21:05:55.136549 21233 Pipeline.cpp:449] Statistics
