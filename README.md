@@ -6,7 +6,7 @@ images, IMU, GPS, and wheel encoder measurements. It was collected from a ground
 University of Illinois at Urbana-Champaign. The collection campaign took place during the Summer of 2022. Different data sequences
 were collected twice per week in corn fields, and less often in soybean and sorghum. This dataset exhibit high variability in terms of
 weather conditions and growth stages. It contains challenging features like occlusions, illumination variations, weeds, dynamic objects, and rough terrain.
-
+<!-- 
 <div align="center">
   <a href="figures/robot.png">
     <img src="figures/robot.png" width="400" alt="Terrasentia-robot">
@@ -14,7 +14,7 @@ weather conditions and growth stages. It contains challenging features like occl
 </div>
 
 <a href="https://youtu.be/cSIdbHLZzkc?t=119" target="_blank"><img src="figures/robot.png" 
-alt="Sample-data" width="400" height="400" border="10" /></a>
+alt="Sample-data" width="400" height="400" border="10" /></a> -->
 
 <div align="center">
   <img src="figures/sample_video2.gif"/>
