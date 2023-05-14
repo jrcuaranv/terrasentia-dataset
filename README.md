@@ -38,11 +38,13 @@ Others          14                  3 months       x                   x        
 
 ## Playing SVO files (optional)
 ### Left image and neural depth computed by the ZED SDK
+
 <div align="center">
   <a href="figures/neural_depth.png">
-    <img src="neural_depth.png" width="800" alt="neural_depth">
+    <img src="neural_depth.png" width="600" alt="neural-depth">
   </a>
 </div>
+
 If you want higher resolution images and higher depth quality than that of the rosbag files, then you can use the svo files. Most of them
 were recorded simultaneously with the rosbags.
 1. Install the [ZED SDK](https://www.stereolabs.com/developers/release/) (You need CUDA)
