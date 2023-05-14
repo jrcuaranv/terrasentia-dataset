@@ -66,14 +66,22 @@ catkin_ws/src/zed-ros-wrapper/zed_wrapper/params. To get the Intrinsic parameter
 - /zed2/zed_node/right/camera_info
 
 ## Building fpn_msgs in your catkin workspace
-In order to read the GPS and motor messages, which are user-defined ROS messages, you will need to build them in your catkin workspace.
+In order to read the GPS and motor messages, which are user-defined ROS messages, you will need to build them in your catkin workspace. [Further details](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv).
 1. Download the package [fpn_msgs](https://uofi.box.com/shared/static/sxfuvw9njpm2e2mbcfncirdxx70kn165.zip) to your catkin/src folder and unzip the file.
 2. Go to your catkin workspace and build the package
 ```
->> catkin_make fpn_msgs
+catkin_make fpn_msgs
 ```
 3. Source your workspace
 ```
->>source devel/setup.bash
+source devel/setup.bash
 ```
-[Further details](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
+
+## Sensor calibration
+<div align="center">
+  <a href="figures/coordinate_frames.png">
+    <img src="figures/coordinate_frames.png" width="400" alt="coordinate-frames">
+  </a>
+</div>
+
+Check [sensor_parameters.txt](.sensor_parameters.txt)

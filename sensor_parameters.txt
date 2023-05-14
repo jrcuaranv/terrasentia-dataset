@@ -1,0 +1,79 @@
+Camera intrinsics (Given by the monufacturer)
+camera_model: pinhole
+resolution: [832, 468]
+distortion_model: radtan
+distortion_coeffs: [0.0, 0.0, 0.0, 0.0] #stereo images are rectified
+intrinsics: [342.6859130859375, 342.6859130859375, 407.89288330078125, 221.7885284423828] #fx, fy, cx, cy
+
+Camera extrinsics (given by the manufacturer)
+Transformation from left camera to zed-imu -Camera: (x right, y down, z forward)
+-IMU: (x forward, y left, z up)
+
+T_imu_left = [0.008566743072747,   0.002937311261940,   0.999958988714200,   0.001803529095233,
+  -0.999961868128753,   0.001961224964540,   0.008560264215503,   0.023016674964885,
+  -0.001935776313654,  -0.999993527115831,   0.002953683950084,  -0.000169568352851,
+                   0                   0                   0   1.000000000000000]
+
+Transformation from right camera to zed-imu (given by the manufacturer)
+-Camera: (x right, y down, z forward)
+-IMU: (x forward, y left, z up)
+
+T_imu_right = [0.008566743072747,   0.002937311261940,   0.999958988714200,   0.001803529095233,
+  -0.999961868128753,   0.001961224964540,   0.008560264215503,   -0.097,
+  -0.001935776313654,  -0.999993527115831,   0.002953683950084,  -0.000169568352851,
+                   0                   0                   0   1.000000000000000]
+—-------------------------------------------------------------------------------------------------------------------------------.
+
+Transformation: ZED IMU to left camera frame (Estimated with Kalibr)
+Tl_zedimu =   [0.008549609761362348, -0.9999458429314751, -0.0059342545433483385, 0.012615401393051796]
+  [-0.014946742430602733, 0.005806017223425469, -0.9998714342627805, 0.03814288078339417]
+  [0.9998517385410883, 0.008637208348657555, -0.014896293777320685, -0.08485411676628736]
+  [0.0, 0.0, 0.0, 1.0]
+
+Transformation: Right camera to left camera frame (Estimated with Kalibr)
+Tlr = [0.999998526516704  -0.000199748318007   0.001705011742111   0.120580933347796
+   0.000199738279771   0.999999980033966   0.000006057763620  -0.000069725492780
+  -0.001705012918096  -0.000005717198582   0.999998546448080  -0.000650700235962
+                   0                   0                   0   1.000000000000000]
+
+Transformation: Robot IMU to left camera frame (rotation estimated with kalibr, translation measured directly on the robot)
+Tl_robotIMU = [-0.118051884740142  -0.991715886014659  -0.050629575699013   0.060000000000000
+   0.044898991662278   0.045603162098676  -0.997950115063029   0.240000000000000
+   0.991991851305751  -0.120083108857007   0.039143504061662  -0.180000000000000
+                   0                   0                   0   1.000000000000000]
+
+Left camera Intrinsics (estimated with Kalibr)
+  camera_model: pinhole
+  distortion_coeffs: [-0.021473799590884732, 0.008755979395663471, -0.0007917836308023511, 0.00025935214696291056]
+  distortion_model: radtan
+  intrinsics: [322.26762900154415, 323.3856785687684, 411.1929028951678, 221.3457793656796]
+  resolution: [832, 468]
+
+Right camera Intrinsics (estimated with Kalibr)
+camera_model: pinhole
+  distortion_coeffs: [-0.019953781616069238, 0.00868240841202975, -0.0006026151840883728, 2.6157607431448774e-06]
+  distortion_model: radtan
+  intrinsics: [322.1947588548571, 323.3995871531538, 411.8473611697464, 221.01024504712143]
+  resolution: [832, 468]
+
+zed-Imu calibration parameters (Given by the manufacturer) //Note that one may need to multiply these values by 10-20 times to get usable sensor values.
+accelerometer_noise_density = 0.00144514 m/s2/sqrt(Hhz)
+accelerometer_random_walk   = 0.00003447  m/s3/sqrt(Hz)
+gyroscope_noise_density     = 0.00016381  rad/s/sqrt(Hz)
+gyroscope_random_walk       = 0.00000698  rad/s2/sqrt(Hz)
+rate: 200 Hz
+
+Robot-IMU calibration parameters (Estimated with Kalibr tool)
+accelerometer_noise_density = 0.40572120 m/s2/sqrt(Hz)
+accelerometer_random_walk   = 0.00117599  m/s3/sqrt(Hz)
+gyroscope_noise_density     = 0.00106726  rad/s/sqrt(Hz)
+gyroscope_random_walk       = 0.00000768  rad/s2/sqrt(Hz)
+rate: 86 Hz
+
+Wheel odometry parameters:
+Distance from left to right wheels:  0.26 m
+Distance from wheels at the same side: 0.29 m
+Wheel radius: 0.086 m
+
+Translation of GPS with respect to Left camera [m]:
+[x, y, z] = [0.06, -0.01, -0.37]
