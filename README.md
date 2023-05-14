@@ -42,20 +42,20 @@ were recorded simultaneously with the rosbags.
 1. Install the [ZED SDK](https://www.stereolabs.com/developers/release/) (You need CUDA)
 2. install the [ZED ROS Wrapper](https://www.stereolabs.com/docs/ros/)
 3. Play the svo files:
-'''
->> cd ~/catkin_ws
->> source devel/setup.bash
->> roslaunch zed_wrapper zed2.launch svo_file:=/home/path_to_svo_file/file.svo
-'''
+```
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch zed_wrapper zed2.launch svo_file:=/home/path_to_svo_file/file.svo
+```
 4. See all the ROS topics as the camera was connected
->> rostopic list
-You can change the quality of the depth image and other parameters
-by editing the file common.yaml in the directory:
-catkin_ws/src/zed-ros-wrapper/zed_wrapper/params
-To get the Intrinsic parameters of the camera, check topics:
-/zed2/zed_node/depth/camera_info
-/zed2/zed_node/left/camera_info
-/zed2/zed_node/right/camera_info
+```
+rostopic list
+```
+You can change the quality of the depth image and other parameters by editing the file common.yaml in the directory:
+catkin_ws/src/zed-ros-wrapper/zed_wrapper/params. To get the Intrinsic parameters of the camera, check topics:
+-/zed2/zed_node/depth/camera_info
+-/zed2/zed_node/left/camera_info
+-/zed2/zed_node/right/camera_info
 
 
 
