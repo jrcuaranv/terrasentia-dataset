@@ -1,0 +1,40 @@
+******* Sequences with reliable RTK corrections ********
+-----------------------------------------------------------------------------------
+Since GPS accuracy is affected by the weather conditions and plant canopy even with 
+RTK base station, we have listed those sequences with accuracy lower than 2 cm.
+
+2022
+Cornfield1
+ts_2022_06_09_13h16m39s_one_row.bag
+ts_2022_06_09_13h19m17s_three_rows.bag
+ts_2022_06_15_11h48m34s_four_rows.bag
+ts_2022_06_22_11h48m32s_four_rows.bag
+ts_2022_06_29_12h04m02s_four_rows.bag
+ts_2022_06_29_12h33m37s_solar_house.bag
+ts_2022_09_01_11h20m00s_two_random.bag
+ts_2022_09_01_12h14m59s_one_row_random.bag
+ts_2022_09_01_12h32m56s_double_loop_corridor.bag
+ts_2022_09_06_12h44m31s_two_random.bag
+ts_2022_09_06_12h49m57s_two_random.bag
+ts_2022_09_06_12h37m11s_four_rows.bag
+ts_2022_09_08_09h43m43s_four_rows.bag
+ts_2022_09_08_09h58m34s_two_random.bag
+ts_2022_09_08_09h52m30s_two_random.bag
+ts_2022_09_20_10h56m08s_four_rows.bag
+ts_2022_09_20_11h04m32s_two_random.bag
+ts_2022_09_20_11h10m20s_two_random.bag
+ts_2022_10_06_10h15m24s_two_random.bag
+ts_2022_10_06_10h21m44s_four_rows.bag
+
+2023
+ts_2023_06_15_21h07m23s_one_random_row.bag
+ts_2023_06_15_21h06m24s_one_random_row.bag
+ts_2023_06_23_21h04m38s_one_random_row.bag
+ts_2023_08_04_12h41m19s_four_rows.bag
+ts_2023_08_04_13h01m37s_corridor.bag
+ts_2023_08_04_12h58m41s_two_rows.bag
+ts_2023_08_04_12h56m30s_two_rows.bag
+ts_2023_08_04_12h48m50s_two_rows.bag
+ts_2023_08_04_12h52m26s_two_rows.bag
+ts_2023_08_04_12h54m43s_two_rows.bag
+ts_2023_08_04_12h51m02s_one_row.bag
