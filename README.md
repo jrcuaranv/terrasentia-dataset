@@ -110,6 +110,16 @@ catkin_make fpn_msgs
 source devel/setup.bash
 ```
 
+## Extracting data from rosbag files
+1. Build fpn_msgs as explained above
+2. Edit script extract_data_from_rosbag.py, customizing topics to extract and output directory
+3. Run script
+```
+source ~/catkin_ws/devel/setup.bash
+python3 extract_data_from_rosbag.py
+
+```
+
 ## Sensor calibration
 ### Robot's coordinate frames
 <div align="center">
