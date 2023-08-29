@@ -6,35 +6,97 @@ RTK base station, we have listed those sequences with accuracy lower than 2 cm.
 2022
 Cornfield1
 ts_2022_06_09_13h16m39s_one_row.bag
-ts_2022_06_09_13h19m17s_three_rows.bag
-ts_2022_06_15_11h48m34s_four_rows.bag
-ts_2022_06_22_11h48m32s_four_rows.bag
-ts_2022_06_29_12h04m02s_four_rows.bag
-ts_2022_06_29_12h33m37s_solar_house.bag
-ts_2022_09_01_11h20m00s_two_random.bag
-ts_2022_09_01_12h14m59s_one_row_random.bag
-ts_2022_09_01_12h32m56s_double_loop_corridor.bag
-ts_2022_09_06_12h44m31s_two_random.bag
-ts_2022_09_06_12h49m57s_two_random.bag
-ts_2022_09_06_12h37m11s_four_rows.bag
-ts_2022_09_08_09h43m43s_four_rows.bag
-ts_2022_09_08_09h58m34s_two_random.bag
-ts_2022_09_08_09h52m30s_two_random.bag
-ts_2022_09_20_10h56m08s_four_rows.bag
-ts_2022_09_20_11h04m32s_two_random.bag
-ts_2022_09_20_11h10m20s_two_random.bag
-ts_2022_10_06_10h15m24s_two_random.bag
-ts_2022_10_06_10h21m44s_four_rows.bag
+wget -O ts_2022_06_09_13h16m39s_one_row.bag https://uofi.box.com/shared/static/ea426awnzglqb86vdahn1smeocilhsz0.bag
 
-2023
+ts_2022_06_09_13h19m17s_three_rows.bag
+wget -O ts_2022_06_09_13h19m17s_three_rows.bag https://uofi.box.com/shared/static/a3ry10uj1gjxx1x85i2zrihab7w4wuif.bag
+
+ts_2022_06_15_11h48m34s_four_rows.bag
+wget -O ts_2022_06_15_11h48m34s_four_rows.bag https://uofi.box.com/shared/static/r0sg8conr2n3abhje0ljr3qn9gskkiyc.bag
+
+ts_2022_06_22_11h48m32s_four_rows.bag
+wget -O ts_2022_06_22_11h48m32s_four_rows.bag https://uofi.box.com/shared/static/265lemqsz89pa3wux8lc268sktofd9hw.bag
+
+ts_2022_06_29_12h04m02s_four_rows.bag
+wget -O ts_2022_06_29_12h04m02s_four_rows.bag https://uofi.box.com/shared/static/9pn4fg527mgcmbr91q0qyq0awvo43c81.bag
+
+ts_2022_06_29_12h33m37s_solar_house.bag
+wget -O ts_2022_06_29_12h33m37s_solar_house.bag https://uofi.box.com/shared/static/oqqpugs4hgssjuubz7igalbkoldehf15.bag
+
+ts_2022_09_01_11h20m00s_two_random.bag
+wget -O ts_2022_09_01_11h20m00s_two_random.bag https://uofi.box.com/shared/static/jf2ol5vmmgyauens3d8cufao7f3hlg63.bag
+
+ts_2022_09_01_12h14m59s_one_row_random.bag
+wget -O ts_2022_09_01_12h14m59s_one_row_random.bag https://uofi.box.com/shared/static/hfunmjpp2vo8m7e3rqzb3t7hpx97kdd1.bag
+
+ts_2022_09_01_12h32m56s_double_loop_corridor.bag
+wget -O ts_2022_09_01_12h32m56s_double_loop_corridor.bag https://uofi.box.com/shared/static/xg07b214zf20qkk2880dnjeeah1zbpj4.bag
+
+ts_2022_09_06_12h44m31s_two_random.bag
+wget -O ts_2022_09_06_12h44m31s_two_random.bag https://uofi.box.com/shared/static/dxkdnupgvipey7aniv7adgdj6xqtahbo.bag
+
+ts_2022_09_06_12h49m57s_two_random.bag
+wget -O ts_2022_09_06_12h49m57s_two_random.bag https://uofi.box.com/shared/static/cbykmlw8x6utgbd0d2as7atwqg4sttp5.bag
+
+ts_2022_09_06_12h37m11s_four_rows.bag
+wget -O ts_2022_09_06_12h37m11s_four_rows.bag https://uofi.box.com/shared/static/ln3584pumoc35z09xtnn0gc3gua715sy.bag
+
+ts_2022_09_08_09h43m43s_four_rows.bag
+wget -O ts_2022_09_08_09h43m43s_four_rows.bag https://uofi.box.com/shared/static/wzq80fs8tqsk7cl2t50dsxujfhx9xkaf.bag
+
+ts_2022_09_08_09h58m34s_two_random.bag
+wget -O ts_2022_09_08_09h58m34s_two_random.bag https://uofi.box.com/shared/static/4a4rde2fcupl6cj6hhbycx4h62pkkpuy.bag
+
+ts_2022_09_08_09h52m30s_two_random.bag
+wget -O ts_2022_09_08_09h52m30s_two_random.bag https://uofi.box.com/shared/static/q1lguuwi8ql4ajxjx9bhueslhmjwo2bf.bag
+
+ts_2022_09_20_10h56m08s_four_rows.bag
+wget -O ts_2022_09_20_10h56m08s_four_rows.bag https://uofi.box.com/shared/static/tawccc177ztj9p0iihd4ol6bg3shpi8a.bag
+
+ts_2022_09_20_11h04m32s_two_random.bag
+wget -O ts_2022_09_20_11h04m32s_two_random.bag https://uofi.box.com/shared/static/iuni059rpu9orsu90bxeziurvqrr7hyt.bag
+
+
+ts_2022_09_20_11h10m20s_two_random.bag
+wget -O ts_2022_09_20_11h10m20s_two_random.bag https://uofi.box.com/shared/static/0k74wbf1milh9tvyoyals6nv1nhht2o2.bag
+
+ts_2022_10_06_10h15m24s_two_random.bag
+wget -O ts_2022_10_06_10h15m24s_two_random.bag https://uofi.box.com/shared/static/hhqr9l3muwyxfx7r726l9dtccf6lexvz.bag
+
+ts_2022_10_06_10h21m44s_four_rows.bag
+wget -O ts_2022_10_06_10h21m44s_four_rows.bag https://uofi.box.com/shared/static/vo3por632he57n6grxlywh02p9zvse3t.bag
+
+
+cornfield_2023
 ts_2023_06_15_21h07m23s_one_random_row.bag
+wget -O ts_2023_06_15_21h07m23s_one_random_row.bag https://uofi.box.com/shared/static/iovj4vv12kev8x4aai29j51v8mrojut5.bag
+
 ts_2023_06_15_21h06m24s_one_random_row.bag
+wget -O ts_2023_06_15_21h06m24s_one_random_row.bag https://uofi.box.com/shared/static/itbw6hm6klp0lgjp28zkhbds43fwuqqv.bag
+
 ts_2023_06_23_21h04m38s_one_random_row.bag
+wget -O ts_2023_06_23_21h04m38s_one_random_row.bag https://uofi.box.com/shared/static/11r5zhzh3cffzf38ugj5n141xula1dc6.bag
+
 ts_2023_08_04_12h41m19s_four_rows.bag
+wget -O ts_2023_08_04_12h41m19s_four_rows.bag https://uofi.box.com/shared/static/6yibctkwdh01zi4qawom4uyxe06r2d8s.bag
+
 ts_2023_08_04_13h01m37s_corridor.bag
+wget -O ts_2023_08_04_13h01m37s_corridor.bag https://uofi.box.com/shared/static/i1778p5yoyckrdy3vl81ghls20yiinzx.bag
+
 ts_2023_08_04_12h58m41s_two_rows.bag
+wget -O ts_2023_08_04_12h58m41s_two_rows.bag https://uofi.box.com/shared/static/g9hbaaa7dkc19gd3vbbn1bsrtk55adx4.bag
+
 ts_2023_08_04_12h56m30s_two_rows.bag
+wget -O ts_2023_08_04_12h56m30s_two_rows.bag https://uofi.box.com/shared/static/ur0yaan8ii124hcbduy0b37th2ymq0zo.bag
+
 ts_2023_08_04_12h48m50s_two_rows.bag
+wget -O ts_2023_08_04_12h48m50s_two_rows.bag https://uofi.box.com/shared/static/xvb4jl7lgwsn1deemcld8ijjnzcxiik3.bag
+
 ts_2023_08_04_12h52m26s_two_rows.bag
+wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/xeh209mbh0eeq75crliotw1geu2jrxri.bag
+
 ts_2023_08_04_12h54m43s_two_rows.bag
+wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/xixrgxb352pth0kytg1ieeql8jp1epwn.bag
+
 ts_2023_08_04_12h51m02s_one_row.bag
+wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/kpma6pt3rk71fgxrbnfe0sp3qj1kb5i0.bag
