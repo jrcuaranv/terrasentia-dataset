@@ -44,8 +44,8 @@ gps_topic = "/terrasentia/full_gps"
 topics_list = [deph_topic, odom_topic, gps_topic, left_cam_topic] #right_cam_topic,
 
 
-out_left_imgs_dir = os.path.join(out_dir, "right_imgs")
-out_right_imgs_dir = os.path.join(out_dir, "left_imgs")
+out_left_imgs_dir = os.path.join(out_dir, "left_imgs")
+out_right_imgs_dir = os.path.join(out_dir, "right_imgs")
 out_dep_dir = os.path.join(out_dir, "depth")
 if not os.path.isdir(out_left_imgs_dir):
     os.makedirs(out_left_imgs_dir)
