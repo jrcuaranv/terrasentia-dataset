@@ -96,7 +96,7 @@ ts_2023_08_04_12h52m26s_two_rows.bag
 wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/xeh209mbh0eeq75crliotw1geu2jrxri.bag
 
 ts_2023_08_04_12h54m43s_two_rows.bag
-wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/xixrgxb352pth0kytg1ieeql8jp1epwn.bag
+wget -O ts_2023_08_04_12h54m43s_two_rows.bag https://uofi.box.com/shared/static/xixrgxb352pth0kytg1ieeql8jp1epwn.bag
 
 ts_2023_08_04_12h51m02s_one_row.bag
-wget -O ts_2023_08_04_12h52m26s_two_rows.bag https://uofi.box.com/shared/static/kpma6pt3rk71fgxrbnfe0sp3qj1kb5i0.bag
+wget -O ts_2023_08_04_12h51m02s_one_row.bag https://uofi.box.com/shared/static/kpma6pt3rk71fgxrbnfe0sp3qj1kb5i0.bag
