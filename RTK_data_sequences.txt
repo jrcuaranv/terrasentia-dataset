@@ -68,6 +68,9 @@ wget -O ts_2022_10_06_10h21m44s_four_rows.bag https://uofi.box.com/shared/static
 
 
 cornfield_2023
+1. The Ros topics names in these data sequences are a little bit different from those collected in 2022. Please check that.
+2. Unlike previous rosbags, these rosbags(2023) include neural depth for the front zed camera.
+
 ts_2023_06_15_21h07m23s_one_random_row.bag
 wget -O ts_2023_06_15_21h07m23s_one_random_row.bag https://uofi.box.com/shared/static/iovj4vv12kev8x4aai29j51v8mrojut5.bag
 
