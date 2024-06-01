@@ -134,3 +134,20 @@ python3 extract_data_from_rosbag.py
 
 Download [sensor_parameters.txt](sensor_parameters.txt)
 
+## Publication
+If you find this dataset useful, please cite our paper:
+
+Cuaran, J., Baquero Velasquez, A. E., Valverde Gasparino, M., Uppalapati, N. K., Sivakumar, A. N., Wasserman, J., ... & Chowdhary, G. (2023). Under-canopy dataset for advancing simultaneous localization and mapping in agricultural robotics. The International Journal of Robotics Research, 02783649231215372.
+
+ ```bibtex
+@article{cuaran2023under,
+  title={Under-canopy dataset for advancing simultaneous localization and mapping in agricultural robotics},
+  author={Cuaran, Jose and Baquero Velasquez, Andres Eduardo and Valverde Gasparino, Mateus and Uppalapati, Naveen Kumar and Sivakumar, Arun Narenthiran and Wasserman, Justin and Huzaifa, Muhammad and Adve, Sarita and Chowdhary, Girish},
+  journal={The International Journal of Robotics Research},
+  volume={43},
+  number={6},
+  pages={739--749},
+  year={2023},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+ ```
