@@ -1,6 +1,8 @@
 # Terrasentia-dataset
 [Explore dataset](https://uofi.box.com/s/l7e0okjxkq1vzz77goac2bu1my81ad9d)
+
 [Download scripts](https://github.com/jrcuaranv/terrasentia-dataset/tree/main/download_scripts)
+
 [Paper](https://journals.sagepub.com/doi/abs/10.1177/02783649231215372)
 
 [Paper - Supplementary material](https://uofi.box.com/s/cns333ty3t04lib5mjnq16tycxokztp2)
