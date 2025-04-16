@@ -7,11 +7,10 @@ adapted from: https://cvg.cit.tum.de/data/datasets/rgbd-dataset/tools
 import argparse
 import os
 import sys
-import cv2
 import matplotlib.pyplot as plt
 import numpy as np
+import cv2
 from cv_bridge import CvBridge, CvBridgeError
-sys.path.append("/usr/lib/python2.7/dist-packages/")
 import rospy
 import rosbag
 from sensor_msgs.msg import Image
@@ -31,8 +30,8 @@ def latlong2xyz(lat, lon, lat0, lon0):
     #return north, east # NED (north, east, down) x and y coordinates in a reference frame with the origin in lat0, lon0
 
     
-bag_file = "/home/jose/Documents/extract_data/data/ts_2022_09_01_12h14m59s_one_row_random.bag"
-out_dir   = "/home/jose/Documents/extract_data/data"
+bag_file = "/media/jose/SSD1G/slam_dataset/ts_2022_06_09_13h16m39s_one_row.bag"
+out_dir   = "/media/jose/SSD1G/slam_dataset/data_test"
 
 left_cam_topic = "/terrasentia/zed2/zed_node/left/image_rect_color/compressed"
 right_cam_topic = "/terrasentia/zed2/zed_node/right/image_rect_color/compressed"
@@ -88,8 +87,7 @@ for topic, msg, t in bag.read_messages(topics=topics_list):
     
     if topic==deph_topic:
         cvimg = cv_bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
-        #cvimg = cvimg.copy()*1000.0                # uncomment this only for astra
-        #cvimg = cvimg.astype(np.uint16)            # uncomment this only for astra
+        cvimg = (1000*cvimg).astype(np.uint16) # depth will be in [mm]
         out_fn = os.path.join(out_dep_dir, fn + '.png')
         dep_file.write(fn + ' ' + 'depth/' + fn + '.png' + '\n')
         cv2.imwrite(out_fn, cvimg)

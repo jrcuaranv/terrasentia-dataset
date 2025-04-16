@@ -3,7 +3,8 @@ camera_model: pinhole
 resolution: [832, 468]
 distortion_model: radtan
 distortion_coeffs: [0.0, 0.0, 0.0, 0.0] #stereo images are rectified
-intrinsics: [342.6859130859375, 342.6859130859375, 407.89288330078125, 221.7885284423828] #fx, fy, cx, cy
+intrinsics: [342.6859130859375, 342.6859130859375, 407.89288330078125, 221.7885284423828] #fx, fy, cx, cy for (832x468 rosbag files)
+intrinsics: [527.20909706, 527.20909706, 627.52751277, 341.21312068] #fx, fy, cx, cy for (1280x720 svo files)
 
 Camera extrinsics (given by the manufacturer)
 Transformation from left camera to zed-imu -Camera: (x right, y down, z forward)
