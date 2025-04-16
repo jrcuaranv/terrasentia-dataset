@@ -124,6 +124,17 @@ python3 extract_data_from_rosbag.py
 
 ```
 
+
+## Extracting data from svo files
+1. Download svo files. You can use the script ALL_SVO_LINKS.sh to download all the svo files.
+2. Install the [ZED SDK](https://www.stereolabs.com/developers/release/) (You need CUDA).
+We used ZED SDK version 3.7.2. Earlier versions might not work as StereoLabs has updated the svo format.
+3. Run script
+```
+python3 extract_data_from_svo.py
+
+```
+
 ## Sensor calibration
 ### Robot's coordinate frames
 <div align="center">
